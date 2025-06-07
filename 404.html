@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <meta http-equiv="refresh" content="0; url=/Portfolio-React/index.html" />
     <script type="text/javascript">
-      // This script handles deep links (React Router paths)
-      var path = window.location.pathname;
-      var search = window.location.search;
-      var hash = window.location.hash;
-      var url = '/index.html' + search + hash;
-      window.location.replace(url);
+      // This script handles deep links (React Router paths) for GitHub Pages subpath
+      (function () {
+        var base = '/Portfolio-React';
+        var path = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+
+        // Remove base from path if present
+        if (path.startsWith(base)) {
+          path = path.slice(base.length);
+        }
+
+        // Build new URL relative to base
+        var url = base + '/index.html' + search + hash;
+        window.location.replace(url);
+      })();
     </script>
   </head>
   <body>
     <p>Redirecting...</p>
   </body>
 </html>
-<!-- This file is used to redirect users from the root path to the index.html file -->
-<!-- It ensures that any deep links or paths are correctly handled by React Router -->          
