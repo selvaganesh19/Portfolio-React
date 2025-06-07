@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/Portfolio-React/index.html" />
+    <!-- Meta refresh fallback -->
+    <meta http-equiv="refresh" content="0; url=index.html" />
     <script type="text/javascript">
-      // This script handles deep links (React Router paths) for GitHub Pages subpath
       (function () {
-        var base = '/Portfolio-React';
+        var base = '/Portfolio-React';  // your GitHub Pages repo path
         var path = window.location.pathname;
         var search = window.location.search;
         var hash = window.location.hash;
 
-        // Remove base from path if present
+        // Remove base path from pathname if present
         if (path.startsWith(base)) {
           path = path.slice(base.length);
         }
 
-        // Build new URL relative to base
-        var url = base + '/index.html' + search + hash;
+        // Compose URL to index.html + the rest of the path + query + hash
+        var url = base + '/index.html' + path + search + hash;
+
+        // Redirect to that URL, letting React Router handle routing after index.html
         window.location.replace(url);
       })();
     </script>
