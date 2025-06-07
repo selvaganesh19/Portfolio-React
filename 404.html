@@ -1,27 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Meta refresh fallback -->
-    <meta http-equiv="refresh" content="0; url=index.html" />
-    <script type="text/javascript">
-      (function () {
-        var base = '/Portfolio-React';  // your GitHub Pages repo path
-        var path = window.location.pathname;
-        var search = window.location.search;
-        var hash = window.location.hash;
-
-        // Remove base path from pathname if present
-        if (path.startsWith(base)) {
-          path = path.slice(base.length);
-        }
-
-        // Compose URL to index.html + the rest of the path + query + hash
-        var url = base + '/index.html' + path + search + hash;
-
-        // Redirect to that URL, letting React Router handle routing after index.html
-        window.location.replace(url);
-      })();
-    </script>
+    <meta http-equiv="refresh" content="0; url=/Portfolio-React/index.html" />
   </head>
   <body>
     <p>Redirecting...</p>
