@@ -1,27 +1,26 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.749eeddc.css",
-    "main.js": "/Portfolio-React/static/js/main.cd1d3c54.js",
+    "main.js": "/Portfolio-React/static/js/main.23307de2.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio-React/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/ev.png": "/Portfolio-React/static/media/ev.d8ffdeaf2edd7a0451d3.png",
+    "static/media/resume.pdf": "/Portfolio-React/static/media/resume.3fd3510714976d313c10.pdf",
     "static/media/traffic.png": "/Portfolio-React/static/media/traffic.1d845b029a219e988865.png",
-    "static/media/resume.pdf": "/Portfolio-React/static/media/resume.4a29c4ee312ff1455495.pdf",
     "static/media/home-main.svg": "/Portfolio-React/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio-React/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/2048.png": "/Portfolio-React/static/media/2048.1606964165a6a85642e0.png",
-    "static/media/pdfbot.png": "/Portfolio-React/static/media/pdfbot.78abf195d84ba9377a9b.png",
     "static/media/home-bg.jpg": "/Portfolio-React/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/Portfolio-React/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/Portfolio-React/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio-React/index.html",
     "main.749eeddc.css.map": "/Portfolio-React/static/css/main.749eeddc.css.map",
-    "main.cd1d3c54.js.map": "/Portfolio-React/static/js/main.cd1d3c54.js.map",
+    "main.23307de2.js.map": "/Portfolio-React/static/js/main.23307de2.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio-React/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.749eeddc.css",
-    "static/js/main.cd1d3c54.js"
+    "static/js/main.23307de2.js"
   ]
 }
