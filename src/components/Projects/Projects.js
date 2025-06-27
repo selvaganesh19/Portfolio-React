@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import traffic from "../../Assets/Projects/traffic.png"; // Add your own image
 import ev from "../../Assets/Projects/ev.png"; // Add your own image
 import game2048 from "../../Assets/Projects/2048.png"; // Add your own image
-
+import pdfBot from "../../Assets/Projects/pdfbot.png"; // Add your own image
 function Projects() {
   // Function to detect if user is on mobile device
   const isMobile = () => {
@@ -58,6 +58,17 @@ function Projects() {
               description="A JavaScript-based implementation of the popular 2048 puzzle game. Users slide number tiles to combine and reach the target 2048 score. Includes logical gameplay and interactive UI."
               ghLink="https://github.com/selvaganesh19/2048-game-using-Java-script" // Update with your repo
               demoLink="https://my-2048-app.netlify.app/" // Add demo link if hosted
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pdfBot}
+              isBlog={false}
+              title="PDF File Converter Telegram Bot"
+              description="A Telegram bot that converts and manipulates PDF files — PDF to Word, Word to PDF, split, merge, reorder pages, compress, image to PDF, and more. Hosted on Railway with full mobile support."
+              ghLink="https://github.com/selvaganesh19/PDF-file-converter-bot/tree/main"
+              demoLink={telegramDemoLink} // Now smart link!
             />
           </Col>
         </Row>
