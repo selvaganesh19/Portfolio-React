@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Live-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Welcome to my **personal portfolio** built using **React.js**! This site showcases my skills, projects, achievements, and provides a platform to connect with me professionally.
+Welcome to my **personal portfolio** built using **React.js**! This site showcases my skills, projects, achievements, and provides an platform to connect with me professionally.
 
 > ⚡ Designed for recruiters, collaborators, and tech enthusiasts to explore my journey and work.
 
