@@ -51,6 +51,12 @@ If you like this project:
 
 ⭐ Star this repo
 
+---
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 🍴 Fork it for your own portfolio
 
 🛠️ Submit PRs if you make cool improvements
