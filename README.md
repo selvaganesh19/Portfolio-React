@@ -12,7 +12,7 @@ Welcome to my **personal portfolio** built using **React.js**! This site showcas
 
 ## 🔗 Live Demo
 
-🌐 [Visit Portfolio](https://selvaganesh19.github.io/Portfolio-React/)
+🌐 [Visit mY Portfolio](https://selvaganesh19.github.io/Portfolio-React/)
 
 ---
 
