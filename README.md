@@ -28,7 +28,7 @@ Welcome to my **personal portfolio** built using **React.js**! This site showcas
 ✅ Built with React 18 and modern best practices  
 ✅ Smooth animations and transitions  
 ✅ Easy to customize and extend  
-✅ Includes About, Projects, Skills, Contact page
+✅ Includes About, Projects, Skills, Contact pages
 ✅ Open source for inspiration and reuse
 
 ---
